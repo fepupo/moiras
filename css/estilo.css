@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: #ade8f4;
+}
+
+header {
+    width: 100vw;
+    height: 85px;
+    background: linear-gradient(270deg, #85c3ff 0%, #ade8f4 90%);
+    background: -webkit-linear-gradient(270deg, #85c3ff 0%, #ade8f4 90%);
+    background: -moz-linear-gradient(270deg, #85c3ff 0%, #ade8f4 90%);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+header div#logo {
+
+    max-width: 10vw;
+    margin-right: 25px;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 2rem;
+    color: #1d3557;
+}
+
+header div#texto {
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+    color: #1d3557;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    
+    background-color: #ade8f4;
+    
+}
+
+main h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: #1d3557;
+
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    color: #1d3557;
+}
+
+main form input {
+    width: 280px;
+    padding: 10px;
+    margin: 10px auto 0;
+    font-size: 1.1rem;
+    border: 1px solid #1d3557;
+    border-radius: 5px;
+    outline: none;
+}
+
+main form input[type="submit"] {
+    display: flex;
+    padding: 5px 20px;
+    margin: 15px auto 0 auto;
+    color: #FFF;
+    border: 0;
+    border-radius: 5px;
+    background-color: #85c3ff;
+    outline: none;
+    cursor: pointer;
+    justify-content: center;
+    width: 10vw;
+    min-width: 10vw;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+main form input[type="submit"]:hover {
+    background-color: #0085ff;
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    height: 85px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #85c3ff;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(90deg, #85c3ff 0%, #ade8f4 90%);
+    background: -webkit-linear-gradient(90deg, #85c3ff 0%, #ade8f4 90%);
+    background: -moz-linear-gradient(90deg, #85c3ff 0%, #ade8f4 90%);
+}
